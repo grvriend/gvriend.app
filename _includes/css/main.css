@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    color: #{{ site.color.text-color }};
 }
 
 ul, p {
@@ -109,6 +110,10 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+.navbar-default .navbar-brand {
+    background: #{{ site.color.primary }};
 }
 
 @media(min-width:768px) {
