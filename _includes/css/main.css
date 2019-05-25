@@ -6,7 +6,8 @@
 
 body {
     overflow-x: hidden;
-    color: #{{ site.color.text-color }};
+    font-family: futura-pt,"system-ui",Helvetica Neue,sans-serif;
+    color: #{{ site.color.text-color }};  
 }
 
 ul, p {
