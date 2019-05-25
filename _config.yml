@@ -24,11 +24,11 @@ bing_verify:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 54575a
-  primary-rgb: "84, 87, 90"
-  secondary: 285172
-  secondary-dark: 29455b
-  section-tout: eaf1f1
+  primary: F8F7F6
+  primary-rgb: "248, 247, 246"
+  secondary: FFFFFF
+  secondary-dark: F4E4C9
+  section-tout: F4E4C9
 
 
 
