@@ -116,6 +116,10 @@ header .intro-text .skills {
     color: #54575A;
 }
 
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #FAB131;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 150px;
