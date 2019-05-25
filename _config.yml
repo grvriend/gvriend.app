@@ -24,6 +24,7 @@ bing_verify:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
+  text-color: 54575A
   primary: F8F7F6
   primary-rgb: "248, 247, 246"
   secondary: FFFFFF
