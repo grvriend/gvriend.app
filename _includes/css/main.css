@@ -500,3 +500,8 @@ header img.profile-img {
 header .intro-text .name {
     font-size: 2.25em;
 }
+
+.btn-primary {
+    background-color: #1a2f2f;
+    color: #fff;
+}
