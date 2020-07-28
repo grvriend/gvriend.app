@@ -481,6 +481,10 @@ footer .footer-below {
     color: #FAB131;
 }
 
+.navbar-toggle {
+    background: #1a242f;
+}
+
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
@@ -491,7 +495,6 @@ footer .footer-below {
 header img.profile-img {
     max-width: 240px;
     border-radius: 50%;
-    border: 0.4em solid #FAB131;
 }
 
 header .intro-text .name {
