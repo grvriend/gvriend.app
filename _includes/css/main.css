@@ -43,7 +43,7 @@ hr {
     max-width: 250px;
     border: 0;
     border-top: solid 4px;
-    color: #FAB131;
+    color: lightgreen;
 }
 hr.star-light,
 hr.star-primary {
@@ -117,7 +117,7 @@ header .intro-text .skills {
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li.active>a:hover, .navbar-default .navbar-nav>li.active>a:focus {
-    color: #FAB131;
+    color: lightgreen;
 }
 
 .form-control {
@@ -288,14 +288,14 @@ section.tout {
 }
 
 .btn-success {
-    background-color: #FAB131;
+    background-color: lightgreen;
     color: #fff;
 }
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
 .btn-success.active {
-    background-color: #EFA618;
+    background-color: lightgreen;
     color: #fff;
     border-color: #F8F7F6;
 }
@@ -478,7 +478,7 @@ footer .footer-below {
 
 .navbar-nav>.active>a {
     background-color: #fff !important;
-    color: #FAB131;
+    color: lightgreen;
 }
 
 .navbar-toggle {
