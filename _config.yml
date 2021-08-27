@@ -8,12 +8,16 @@ skills: "Technical Lead (Software Development) leading remotely in Lynden, WA"
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # You should replace these with your social networks, of course. :)
 social:
+  - title: envelope
+    url: mailto:grvriend@gmail.com
+  - title: file-pdf-o
+    url: resume
   - title: linkedin
     url: https://www.linkedin.com/in/grvriend/
-  - title: medium
-    url: https://medium.com/@grvriend
-  - title: twitter
-    url: https://twitter.com/grvriend
+  - title: github
+    url: https://github.com/grvriend
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/1813429/ifthiselsethat
     
 # Google webmaster tools
 google_verify:
@@ -27,7 +31,7 @@ color:
   primary: F8F7F6
   primary-rgb: "248, 247, 246"
   secondary: FFFFFF
-  secondary-dark: lightgreen
+  secondary-dark: darkgreen
   section-tout: F8F7F6
 
 
@@ -35,5 +39,3 @@ color:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-theme: jekyll-theme-minimal

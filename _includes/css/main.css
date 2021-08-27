@@ -43,7 +43,7 @@ hr {
     max-width: 250px;
     border: 0;
     border-top: solid 4px;
-    color: lightgreen;
+    color: darkgreen;
 }
 hr.star-light,
 hr.star-primary {
@@ -117,7 +117,7 @@ header .intro-text .skills {
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li.active>a:hover, .navbar-default .navbar-nav>li.active>a:focus {
-    color: lightgreen;
+    color: darkgreen;
 }
 
 .form-control {
@@ -271,9 +271,9 @@ section.tout {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #54575A;
     font-size: 20px;
-    color: #fff;
+    color: #54575A;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -282,20 +282,20 @@ section.tout {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    border: solid 2px #54575A;
     color: #{{ site.color.text-color }};
     background: #fff;
 }
 
 .btn-success {
-    background-color: lightgreen;
+    background-color: darkgreen;
     color: #fff;
 }
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
 .btn-success.active {
-    background-color: lightgreen;
+    background-color: darkgreen;
     color: #fff;
     border-color: #F8F7F6;
 }
@@ -382,7 +382,7 @@ footer .footer-below {
     display: inline-block;
     width: 32px;
     height: 32px;
-    border: 2px solid #fff;
+    border: 2px solid #54575A;
     border-radius: 100%;
     text-align: center;
     font-size: 18px;
@@ -478,7 +478,7 @@ footer .footer-below {
 
 .navbar-nav>.active>a {
     background-color: #fff !important;
-    color: lightgreen;
+    color: darkgreen;
 }
 
 .navbar-toggle {
@@ -504,4 +504,8 @@ header .intro-text .name {
 .btn-primary {
     background-color: #1a2f2f;
     color: #fff;
+}
+
+ul.highlights li {
+    margin-bottom: 1rem;
 }
