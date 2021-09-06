@@ -10,8 +10,8 @@ skills: "Technical Lead (Software Development) leading remotely in Lynden, WA"
 social:
   - title: envelope
     url: mailto:grvriend@gmail.com
-  - title: file-pdf-o
-    url: resume
+  - #title: file-pdf-o
+    #url: resume
   - title: linkedin
     url: https://www.linkedin.com/in/grvriend/
   - title: github
