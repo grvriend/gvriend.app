@@ -12,7 +12,7 @@ I met my wife at [Dordt University](https://www.dordt.edu/) and we now have a si
 
 My family lives in the small farming town of [Lynden, WA](https://www.google.com/maps/place/Lynden,+WA+98264/@48.9644329,-122.4526089,14z/data=!4m5!3m4!1s0x5485b6fc63dc8e25:0xfe6124ff02d8e1ae!8m2!3d48.9428018!4d-122.4529469), about 10 minutes away from Canada.  This is where my wife grew up but also only an hour away from Vancouver, BC where I was born.
 
-### My extroverted Personality
+### My extroverted personality
 
 I am an extrovert that always wants to get out of the house and hang out with others.  After working remotely for 10 years, I still get some serious cases of cabin-fever.
 
