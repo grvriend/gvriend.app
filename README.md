@@ -38,6 +38,10 @@ I, and the other tech leads participate in the hiring process of software engine
 
 I provide technical help to software engineers where needed.  Although I can provide help to engineers for all languages/applications in our stack, my specialty is the Coldfusion language and the reporting applications.
 
+### Training/mentoring
+
+I love to train and mentor others where needed.  If there is something you would like me to train or mentor you on, always feel free to ask me.
+
 ## Expectations
 
 These are expectations that you can expect from me, and I would expect from you as well.
