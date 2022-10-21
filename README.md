@@ -24,6 +24,16 @@ I love to travel, especially to places that I have never been to before.  I may 
 
 I am always striving to improve my work-life balance.  With a remote office just a few steps away, working off-hours is tempting and something that I have previously struggled with.  I am doing my best to limit off-hours work as much as possible.
 
+## Books I love
+
+These books have had a major impact on my technical leadership journey.
+
+- [C# Yellow Book](https://www.amazon.com/C-Programming-Yellow-Book-ebook/dp/B00HNSGM9A/ref=sr_1_1?crid=1MM0WZMG9G9IN&keywords=C%23+yellow+book&qid=1666361603&qu=eyJxc2MiOiIwLjkxIiwicXNhIjoiMC44MyIsInFzcCI6IjAuOTUifQ%3D%3D&sprefix=c+yellow+boo%2Caps%2C152&sr=8-1) - This book is a great introduction to C# and object-orientated programming as a whole.
+- [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=sr_1_1?keywords=the+pragmatic+programmer&qid=1666361676&qu=eyJxc2MiOiIyLjIxIiwicXNhIjoiMS43MSIsInFzcCI6IjEuNzIifQ%3D%3D&sprefix=the+prag%2Caps%2C146&sr=8-1) - A programming book, but goes beyond programming languages and teaches you how to improve your programming thought process.
+- [Dare to lead](https://www.amazon.com/Dare-Lead-Brave-Conversations-Hearts/dp/0399592520/ref=sr_1_1?crid=3M3WJYV3Q46B3&keywords=dare+to+lead&qid=1666361740&qu=eyJxc2MiOiIyLjUyIiwicXNhIjoiMi40MCIsInFzcCI6IjIuNDYifQ%3D%3D&sprefix=dare+to+lead%2Caps%2C144&sr=8-1) - A unique leadership book that focuses in on leading with vulnerability.
+- [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?keywords=the+manager%27s+path&qid=1666362178&qu=eyJxc2MiOiIyLjAyIiwicXNhIjoiMS42MCIsInFzcCI6IjEuNzkifQ%3D%3D&sprefix=the+manager%2Caps%2C194&sr=8-1) - This book serves as a great guide about the path from engineering to management.
+- [Atomic Habits](https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299/ref=sr_1_1?crid=1K0X6XSWQ0RO6&keywords=atomic+habits&qid=1666362331&qu=eyJxc2MiOiIyLjU5IiwicXNhIjoiMi4zMSIsInFzcCI6IjIuMzcifQ%3D%3D&sprefix=atomic+habit%2Caps%2C174&sr=8-1) - A great reminder that small improvements can go a long way.
+
 ## What I do
 
 ### Technical strategy
@@ -42,6 +52,20 @@ I provide technical help to software engineers where needed.  Although I can pro
 
 I love to train and mentor others where needed.  If there is something you would like me to train or mentor you on, always feel free to ask me.
 
+## Leadership style
+
+### Growth focused
+
+I value using the [Incremental Growth Leadership Model](https://tdevroome.medium.com/the-incremental-growth-leadership-model-cef736bebbff#:~:text=What%20is%20the%20Iterative%20Leadership,their%20learning%20and%20career%20goals.) to coach and drive growth in others around me.
+
+### Servant leadership
+
+As a leader I am here for you and want you to succeed.  I believe in the concept of **managing with** instead of **managing too**.  I can only have success if my team succeeds.
+
+### Technically involved
+
+As a technical leader, I don't shy away from getting my hands dirty in the code and the processes.  I am here to help to help the team on the technical side when needed.
+
 ## Expectations
 
 These are expectations that you can expect from me, and I would expect from you as well.
@@ -52,7 +76,7 @@ If you make a mistake, take responsibility for it.  If your team makes a mistake
 
 ### Personal growth
 
-We all have room for personal growth both technically and personally.  Incremental small improvements can build long term success, and there should always be signs that one is improving.  I value using the [Incremental Growth Leadership Model](https://tdevroome.medium.com/the-incremental-growth-leadership-model-cef736bebbff#:~:text=What%20is%20the%20Iterative%20Leadership,their%20learning%20and%20career%20goals.) to coach and drive growth in others around me.
+We all have room for personal growth both technically and personally.  Incremental small improvements can build long term success, and there should always be signs that one is improving.
 
 ### Respect
 
