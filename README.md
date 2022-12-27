@@ -34,24 +34,6 @@ These books have had a major impact on my technical leadership journey.
 - [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?keywords=the+manager%27s+path&qid=1666362178&qu=eyJxc2MiOiIyLjAyIiwicXNhIjoiMS42MCIsInFzcCI6IjEuNzkifQ%3D%3D&sprefix=the+manager%2Caps%2C194&sr=8-1) - This book serves as a great guide about the path from engineering to management.
 - [Atomic Habits](https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299/ref=sr_1_1?crid=1K0X6XSWQ0RO6&keywords=atomic+habits&qid=1666362331&qu=eyJxc2MiOiIyLjU5IiwicXNhIjoiMi4zMSIsInFzcCI6IjIuMzcifQ%3D%3D&sprefix=atomic+habit%2Caps%2C174&sr=8-1) - A great reminder that small improvements can go a long way.
 
-## What I do
-
-### Technical strategy
-
-As a member of the technical leadership team, we plan our long-term technical strategy and have ownership of technical initiatives for the department.  Depending on the initiative, this can either be a direct contributor-role where I get into the code myself or a delegator role where I work with others.
-
-### Hiring engineers
-
-I, and the other tech leads participate in the hiring process of software engineers.  We recognize that hiring can have a large impact on our squads and thus hire carefully.
-
-### Technical help
-
-I provide technical help to software engineers where needed.  Although I can provide help to engineers for all languages/applications in our stack, my specialty is the Coldfusion language and the reporting applications.
-
-### Training/mentoring
-
-I love to train and mentor others where needed.  If there is something you would like me to train or mentor you on, always feel free to ask me.
-
 ## Leadership style
 
 ### Growth focused
@@ -60,23 +42,27 @@ I value using the [Incremental Growth Leadership Model](https://tdevroome.medium
 
 ### Servant leadership
 
-As a leader I am here for you and want you to succeed.  I believe in the concept of **managing with** instead of **managing too**.  I can only have success if my team succeeds.
+As a leader I am here for you and want you to succeed.  I believe in the concept of **managing with** instead of **managing to**.  I can only have success if my team succeeds.
+
+### Consistant feedback
+
+I beleive in giving and receiving consistant feedback.  At first this may feel uncomfortable, but being open and honest about performance will only strengthen the team.
 
 ### Technically involved
 
-As a technical leader, I don't shy away from getting my hands dirty in the code and the processes.  I am here to help to help the team on the technical side when needed.
+As a technical leader, I don't shy away from getting my hands dirty in the code and the processes.  I am here to help to help the team on the technical side when needed.  I am aware that this level of technical involvement can be both a blessing and a curse.  Please keep me in check if you feel that my technical involvement has taken a step too far.
 
 ## Expectations
 
 These are expectations that you can expect from me, and I would expect from you as well.
 
+### Personal growth
+
+We all have room for personal growth both technically and personally.  Incremental small improvements can build long term success, and there should always be signs that one is improving.  Completing personal growth objectives is more meaningful to me than making deadlines.
+
 ### Accountability
 
 If you make a mistake, take responsibility for it.  If your team makes a mistake and it is not your fault, take responsibility for it anyway.  If I make mistake or if I veer away from the values in this document, please hold me accountable.
-
-### Personal growth
-
-We all have room for personal growth both technically and personally.  Incremental small improvements can build long term success, and there should always be signs that one is improving.
 
 ### Respect
 
@@ -84,7 +70,7 @@ I believe that respect is **NOT** something that needs to be earned.  Everyone i
 
 ### Honesty
 
-Any lie, withholding the truth, or misdirection will always come around to have a negative impact in the end.  From me, you expect the truth in our conversations.
+Any lie, withholding the truth, or misdirection will always come around to have a negative impact in the end.  From me, you can expect the truth in our conversations.
 
 ### Availability
 
