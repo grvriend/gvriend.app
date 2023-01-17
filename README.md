@@ -44,9 +44,9 @@ I value using the [Incremental Growth Leadership Model](https://tdevroome.medium
 
 As a leader I am here for you and want you to succeed.  I believe in the concept of **managing with** instead of **managing to**.  I can only have success if my team succeeds.
 
-### Consistant feedback
+### Consistent feedback
 
-I beleive in giving and receiving consistant feedback.  At first this may feel uncomfortable, but being open and honest about performance will only strengthen the team.
+I beleive in giving and receiving consistent feedback.  At first this may feel uncomfortable, but being open and honest about performance will only strengthen the team.
 
 ### Technically involved
 
