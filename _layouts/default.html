@@ -1,130 +1,93 @@
 <!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
-      <meta name="viewport" content="width=device-width">
-      <meta name="description" content="{{ site.name }} {{ site.skills }}">
-      <meta name="keywords" content="{{ site.keywords }}" />
-      <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.canonical_url }}">
-      <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/icon.png" sizes="16x16" />
+<html lang="en">
 
-      <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-      <link rel="stylesheet" href="{{ site.baseurl }}{{ "/style.css" }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.name }} {{ site.skills }}">
+    <meta name="keywords" content="{{ site.keywords }}" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.canonical_url }}">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/icon.png" sizes="16x16" />
 
-      <!-- Google verification -->
-      {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/modern.css">
 
-      <!-- Bing Verification -->
-      {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+    <!-- Google verification -->
+    {% if site.google_verify %}
+    <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
-      <!-- Custom Fonts -->
-      <link rel="stylesheet" href="{{ site.baseurl }}{{ "/css/font-awesome/css/font-awesome.min.css" }}">
-      <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-      <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Bing Verification -->
+    {% if site.bing_verify %}
+    <meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 
-      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-  </head>
-  <body id="page-top" class="index">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="//fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet" type="text/css">
+</head>
+
+<body id="page-top">
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-       <div class="container">
-           <!-- Brand and toggle get grouped for better mobile display -->
-           <div class="navbar-header page-scroll">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                   <span class="sr-only">Toggle navigation</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="#page-top">{{ site.name }}</a>
-               {% for network in site.social %}
-               <a href="{{ network.url }}" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-               {% endfor %}
-           </div>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a class="nav-brand" href="#page-top">{{ site.name }}</a>
 
-           <!-- Collect the nav links, forms, and other content for toggling -->
-           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <ul class="nav navbar-nav navbar-right">
-                   <li class="hidden">
-                       <a href="#page-top"></a>
-                   </li>
-                   <li class="page-scroll">
-                       <a href="#about">About Me</a>
-                   </li>
-                   <li class="page-scroll">
-                       <a href="#interests">Interests</a>
-                   </li>
-                   <li class="page-scroll">
-                       <a href="#contact">Contact</a>
-                   </li>
-               </ul>
-           </div>
-           <!-- /.navbar-collapse -->
-       </div>
-       <!-- /.container-fluid -->
+            <div class="nav-links">
+                <a href="#about">About Me</a>
+                <a href="#interests">Interests</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
     </nav>
+
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="profile-img" src="img/profile.png" alt="{{ site.name }}">
-                    <div class="intro-text">
-                        <span class="name">{{ site.name }}</span>
-                        <hr>
-                        <span class="skills">{{ site.skills }}</span>
-                    </div>
-                </div>
+        <div class="container text-center">
+            <img class="profile-img" src="img/profile.png" alt="{{ site.name }}">
+            <div class="intro-text">
+                <h1>{{ site.name }}</h1>
+                <hr class="divider">
+                <span style="font-size: 1.5rem; font-weight: 300;">{{ site.skills }}</span>
             </div>
         </div>
     </header>
 
-    {% include about_me.html %}
-    {% include interests.html %}
-    {% include contact_form.html %}
+    <main>
+        {% include about_me.html %}
+        {% include interests.html %}
+        {% include contact_form.html %}
+    </main>
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; {{ site.name }} 20{{ site.time | date: '%y' }}
-                    </div>
+        <div class="container">
+            <div class="mb-8">
+                <h3>Around the Web</h3>
+                <div class="social-links">
+                    {% for network in site.social %}
+                    <a href="{{ network.url }}" target="_blank" class="btn-social">
+                        <i class="fab fa-{{ network.title }}"></i>
+                    </a>
+                    {% endfor %}
                 </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                Copyright &copy; {{ site.name }} 20{{ site.time | date: '%y' }}
             </div>
         </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
+    <!-- Scroll to Top Button -->
+    <div style="position: fixed; bottom: 20px; right: 20px; z-index: 100;">
+        <a href="#page-top" class="btn btn-primary"
+            style="border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; padding: 0;">
+            <i class="fas fa-chevron-up"></i>
         </a>
     </div>
-    <!-- jQuery Version 1.11.0 -->
-     <script src="{{ site.baseurl }}{{ "/js/jquery-1.11.0.js" }}"></script>
 
-     <!-- Bootstrap Core JavaScript -->
-     <script src="{{ site.baseurl }}{{ "/js/bootstrap.min.js" }}"></script>
+</body>
 
-     <!-- Plugin JavaScript -->
-     <script src="{{ site.baseurl }}{{ "/js/jquery.easing.min.js" }}"></script>
-     <script src="{{ site.baseurl }}{{ "/js/classie.js" }}"></script>
-     <script src="{{ site.baseurl }}{{ "/js/cbpAnimatedHeader.js" }}"></script>
-
-     <!-- Contact Form JavaScript -->
-     <script src="{{ site.baseurl }}{{ "/js/jqBootstrapValidation.js" }}"></script>
-     <script src="{{ site.baseurl }}{{ "/js/contact_me_static.js" }}"></script>
-
-     <!-- Custom Theme JavaScript -->
-     <script src="{{ site.baseurl }}{{ "/js/freelancer.js" }}"></script>
-  </body>
 </html>
