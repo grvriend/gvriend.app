@@ -1,5 +1,25 @@
+# System Files
+.DS_Store
+*~
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Old Jekyll files (no longer needed)
 _site/
 .sass-cache/
 .jekyll-metadata
-.DS_Store
-*~
+.jekyll-cache/
+Gemfile
+Gemfile.lock
+
+# Logs
+*.log
+
+# Node modules (if using any build tools in the future)
+node_modules/
+package-lock.json
