@@ -15,7 +15,11 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="//fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -25,7 +29,8 @@
             <a class="nav-brand" href="#page-top">Graham Vriend</a>
 
             <div class="nav-links">
-                <a href="#about">About Me</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
                 <a href="#interests">Interests</a>
                 <a href="#contact">Contact</a>
             </div>
@@ -34,31 +39,33 @@
 
     <!-- Header -->
     <header>
-        <div class="container text-center">
+        <div class="container text-center reveal">
             <img class="profile-img" src="img/profile.png" alt="Graham Vriend">
             <div class="intro-text">
                 <h1>Graham Vriend</h1>
                 <hr class="divider">
-                <span style="font-size: 1.5rem; font-weight: 300;">Engineering Manager, Technical Lead, Software
-                    Engineer</span>
+                <span>Engineering Manager, Technical Lead, Software Engineer</span>
             </div>
         </div>
     </header>
 
     <main>
         <!-- About Me Include -->
-        <section id="about" class="section" style="background-color: var(--secondary-bg);">
+        <section id="about" class="section">
             <div class="container">
-                <div class="text-center mb-12">
+                <div class="text-center mb-12 reveal">
                     <h2>About Me</h2>
                     <hr class="divider" />
                 </div>
-                <div class="grid grid-2">
-                    <div class="card" style="background-color: var(--primary-bg);">
-                        <p style="font-size: 1.2rem;">
-                            Technical leader with 10 years experience in the company looking to make an impact in both a
-                            positive work environment and increased productivity. Seeking to leverage core skills of
-                            accountability, vulnerability, and transparency to drive developer success.
+                <div class="grid grid-2 reveal">
+                    <div class="card">
+                        <p style="font-size: 1.1rem; color: var(--text-primary);">
+                            Experienced Engineering Manager with 12+ years in the EdTech and K-12 education sectors,
+                            leading full-stack teams to deliver impactful, customer-focused solutions. Proven ability to
+                            launch new products, optimize processes, and mentor engineers to foster high-performing,
+                            collaborative cultures. Skilled in aligning roadmaps with organizational goals and driving
+                            innovation to enhance early education outcomes. Recently received MBA in IT management to
+                            deepen expertise in strategic planning and leadership.
                         </p>
                     </div>
                     <div>
@@ -66,48 +73,196 @@
                         <ul class="list-unstyled">
                             <li class="list-item">
                                 <i class="fas fa-check-circle list-icon"></i>
-                                <span>Leader in an agile department. Primary focus on technical strategy, and long term
-                                    technical growth for myself and the department. Serve as a resource in managing,
-                                    planning, and implementing technical projects.</span>
+                                <span><b>Leadership:</b> Managed two agile teams with 12 direct reports, fostering
+                                    collaboration and career development.</span>
                             </li>
                             <li class="list-item">
                                 <i class="fas fa-check-circle list-icon"></i>
-                                <span>Experience working with offshore teams including leading the process and project
-                                    management.</span>
+                                <span><b>Strategy:</b> Implemented strategies to enhance team productivity and
+                                    efficiency in a remote work setting.</span>
                             </li>
                             <li class="list-item">
                                 <i class="fas fa-check-circle list-icon"></i>
-                                <span>Led a developer bootcamp for the department. This bootcamp was a 3 day course to
-                                    focus on the fundamentals and to get junior developers up to speed.</span>
+                                <span><b>Mentorship:</b> Directed senior engineers, junior engineers, and software
+                                    analysts to ensure project success.</span>
                             </li>
                             <li class="list-item">
                                 <i class="fas fa-check-circle list-icon"></i>
-                                <span>Created learning plans with colleagues to focus on improvement. Focused on
-                                    weaknesses and development plans to overcome them.</span>
+                                <span><b>Process Improvement:</b> Introduced sustainable development practices,
+                                    streamlining workflows and improving team efficiency.</span>
                             </li>
                             <li class="list-item">
                                 <i class="fas fa-check-circle list-icon"></i>
-                                <span>Manage bi-weekly development releases. Responsible for planning, communicating,
-                                    and delivering.</span>
+                                <span><b>Data-Driven:</b> Used Power BI and Azure DevOps to monitor KPIs, driving
+                                    data-informed decisions for operational excellence.</span>
                             </li>
                             <li class="list-item">
                                 <i class="fas fa-check-circle list-icon"></i>
-                                <span>Extensive knowledge of software solutions for the K-12 education industry.</span>
+                                <span><b>Knowledge Sharing:</b> Led cross-functional initiatives, including a technical
+                                    learning day and an IT conference session on critical thinking.</span>
                             </li>
                             <li class="list-item">
                                 <i class="fas fa-check-circle list-icon"></i>
-                                <span>Wrote many REST API integrations including but not limited to: Wisconsin State
-                                    Reporting, Google Calendar, Amazon S3, Mailchimp, Constant Contact, Zendesk,
-                                    Facebook, Twitter, Highrise, Zencoder, Canvas, Schoology, Salesforce, Magnus, and
-                                    OneRoster.</span>
-                            </li>
-                            <li class="list-item">
-                                <i class="fas fa-check-circle list-icon"></i>
-                                <span>Created a CSS/JS/HTML custom element framework used internally based on Google's
-                                    material design.</span>
+                                <span><b>Global Collaboration:</b> Acted as a technical liaison for an offshore team,
+                                    shaping processes and strategies for a public API.</span>
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Include -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="text-center mb-12 reveal">Experience</h2>
+
+                <div class="experience-list">
+                    <!-- Nelnet - FACTS SIS -->
+                    <div class="experience-item reveal">
+                        <div class="experience-header">
+                            <h3>Engineering Manager</h3>
+                            <span class="company">Nelnet - FACTS SIS</span>
+                            <span class="date">Nov 2021 - Present</span>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="list-unstyled">
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Technical Leadership:</b> Provide technical direction and mentorship to a
+                                        team of developers, fostering a culture of continuous learning and
+                                        improvement.</span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Architecture & Design:</b> Lead the architectural design and implementation
+                                        of scalable, high-performance solutions for the FACTS Student Information
+                                        System.</span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Code Quality:</b> Enforce coding standards and best practices through code
+                                        reviews and automated testing, ensuring high-quality deliverables.</span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Collaboration:</b> Work closely with product managers and stakeholders to
+                                        define technical requirements and roadmap, ensuring alignment with business
+                                        goals.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Nelnet - Renweb Professional Services -->
+                    <div class="experience-item reveal">
+                        <div class="experience-header">
+                            <h3>Software Engineer</h3>
+                            <span class="company">Nelnet - Renweb Professional Services</span>
+                            <span class="date">Feb 2016 - Nov 2021</span>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="list-unstyled">
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Promoted to Technical Lead:</b> Recognized for technical expertise and
+                                        leadership, earning a promotion to Technical Lead for the FACTS SIS team.</span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Custom Development:</b> Developed custom software solutions and
+                                        integrations for RenWeb clients, tailoring the platform to meet specific
+                                        institutional needs.</span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Data Migration:</b> Managed complex data migration projects, ensuring data
+                                        integrity and seamless transitions for schools adopting RenWeb.</span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Client Support:</b> Provided tier-3 technical support, troubleshooting and
+                                        resolving critical issues to maintain high client satisfaction.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Dynamic Internet Solutions -->
+                    <div class="experience-item reveal">
+                        <div class="experience-header">
+                            <h3>Web Developer</h3>
+                            <span class="company">Dynamic Internet Solutions</span>
+                            <span class="date">Oct 2012 - Feb 2016</span>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="list-unstyled">
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Full-Stack Development:</b> Developed and maintained dynamic websites and
+                                        web applications using PHP, MySQL, HTML, CSS, and JavaScript.</span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>CMS Customization:</b> Customized Content Management Systems (CMS) to
+                                        provide clients with tailored solutions for managing their online
+                                        content.</span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>E-commerce Solutions:</b> Implemented and supported e-commerce platforms,
+                                        integrating payment gateways and shopping cart functionalities.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Ozone Solutions -->
+                    <div class="experience-item reveal">
+                        <div class="experience-header">
+                            <h3>Web Developer</h3>
+                            <span class="company">Ozone Solutions</span>
+                            <span class="date">Jan 2012 - Oct 2012</span>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="list-unstyled">
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Website Maintenance:</b> Maintained and updated the company's corporate
+                                        website, ensuring accurate product information and optimal performance.</span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>SEO Optimization:</b> Implemented SEO best practices to improve search
+                                        engine rankings and drive organic traffic to the site.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Dordt University -->
+                    <div class="experience-item reveal">
+                        <div class="experience-header">
+                            <h3>Webmaster Assistant</h3>
+                            <span class="company">Dordt University</span>
+                            <span class="date">Aug 2008 - Dec 2011</span>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="list-unstyled">
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>Content Management:</b> Assisted in managing the university's website
+                                        content, ensuring accuracy and consistency across all departments.</span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-check list-icon"></i>
+                                    <span><b>User Support:</b> Provided support to faculty and staff in updating their
+                                        departmental pages and utilizing the CMS.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -115,31 +270,35 @@
         <!-- Interests Include -->
         <section id="interests" class="section">
             <div class="container">
-                <div class="text-center mb-12">
+                <div class="text-center mb-12 reveal">
                     <h2>Interests</h2>
                     <hr class="divider" />
                 </div>
-                <div class="grid grid-2">
+                <div class="grid grid-2 reveal">
                     <div class="card">
-                        <p class="mb-8" style="font-size: 1.2rem;">
+                        <p class="mb-8" style="font-size: 1.1rem; color: var(--text-primary);">
                             My personal interests include:
                         </p>
                         <ul class="list-unstyled">
                             <li class="list-item">
                                 <i class="fas fa-mountain list-icon"></i>
                                 <span><b>Adventure</b>. When I'm not behind my computer I love to get outside and
-                                    explore new areas. I live in the beautiful Pacific Northwest and have found a new
-                                    home here even though I am originally from Canada.</span>
+                                    explore new
+                                    areas. I live in the beautiful Pacific Northwest and have found a new home here even
+                                    though
+                                    I am originally from Canada.</span>
                             </li>
                             <li class="list-item">
                                 <i class="fas fa-chart-line list-icon"></i>
                                 <span><b>Finance</b>. I am a finance nut, always crunching numbers, researching, and
-                                    staying informed on the markets.</span>
+                                    staying
+                                    informed on the markets.</span>
                             </li>
                             <li class="list-item">
                                 <i class="fas fa-beer list-icon"></i>
                                 <span><b>Craft beer</b>. I love a good IPA, the hoppier the better. Fortunately for me,
-                                    I live in a great area to explore new beers.</span>
+                                    I live
+                                    in a great area to explore new beers.</span>
                             </li>
                         </ul>
                     </div>
@@ -147,38 +306,65 @@
 
                         <h3>Leadership Passions</h3>
                         <h4 style="opacity: 0.8; margin-bottom: 1rem;">Passionate about improving my leadership in the
-                            following areas:</h4>
+                            following
+                            areas:</h4>
                         <ul class="list-unstyled mb-8">
-                            <li><strong style="color: var(--highlight-color);">Vulnerability</strong> - being more
-                                authentic with my peers and showing vulnerability</li>
-                            <li><strong style="color: var(--highlight-color);">Emotional Intelligence</strong> - not
-                                letting small things bring me down and remaining calm with others.</li>
-                            <li><strong style="color: var(--highlight-color);">Empathy</strong> - taking the time to
-                                relate to perspectives that are different than mine.</li>
-                            <li><strong style="color: var(--highlight-color);">README</strong> - please read my <a
-                                    href="https://github.com/grvriend/gvriend.app/blob/master/README.md"
-                                    style="text-decoration: underline;">README</a> for my leadership style and
-                                expectations.</li>
+                            <li class="list-item">
+                                <i class="fas fa-heart list-icon"></i>
+                                <span><b>Vulnerability</b> - being more authentic with my peers and showing
+                                    vulnerability</span>
+                            </li>
+                            <li class="list-item">
+                                <i class="fas fa-brain list-icon"></i>
+                                <span><b>Emotional Intelligence</b> - not letting small things bring me down and
+                                    remaining calm
+                                    with others.</span>
+                            </li>
+                            <li class="list-item">
+                                <i class="fas fa-users list-icon"></i>
+                                <span><b>Empathy</b> - taking the time to relate to perspectives that are different than
+                                    mine.</span>
+                            </li>
+                            <li class="list-item">
+                                <i class="fas fa-book list-icon"></i>
+                                <span><b>README</b> - please read my <a
+                                        href="https://github.com/grvriend/gvriend.app/blob/master/README.md"
+                                        style="text-decoration: underline; color: var(--accent-primary);">README</a> for
+                                    my
+                                    leadership style and expectations.</span>
+                            </li>
                         </ul>
 
                         <h3>Programming Languages</h3>
                         <h4 style="opacity: 0.8; margin-bottom: 1rem;">What I currently do for a living:</h4>
                         <ul class="list-unstyled mb-8">
-                            <li><strong style="color: var(--highlight-color);">Processes:</strong> Agile methodology,
-                                manage deployments, manage development processes, REST API design</li>
-                            <li><strong style="color: var(--highlight-color);">Languages:</strong> Angular, C#,
-                                Coldfusion, MSSQL, HTML, JS, Jquery, CSS, Bootstrap, Cypress, Material Design</li>
-                            <li><strong style="color: var(--highlight-color);">DevTools:</strong> Azure DevOps, Visual
-                                Studio, VSCode, Git, Azure Cloud, Docker, SSMS, Trello, CF API Manager, FileZilla,
-                                Office, Teams, NPM, and LucidChart.</li>
+                            <li class="list-item">
+                                <i class="fas fa-cogs list-icon"></i>
+                                <span><b>Processes:</b> Agile methodology, manage deployments, manage development
+                                    processes,
+                                    REST API design</span>
+                            </li>
+                            <li class="list-item">
+                                <i class="fas fa-code list-icon"></i>
+                                <span><b>Languages:</b> Angular, C#, Coldfusion, MSSQL, HTML, JS, Jquery, CSS,
+                                    Bootstrap,
+                                    Cypress, Material Design</span>
+                            </li>
+                            <li class="list-item">
+                                <i class="fas fa-tools list-icon"></i>
+                                <span><b>DevTools:</b> Azure DevOps, Visual Studio, VSCode, Git, Azure Cloud, Docker,
+                                    SSMS,
+                                    Trello, CF API Manager, FileZilla, Office, Teams, NPM, and LucidChart.</span>
+                            </li>
                         </ul>
-                        <h4 style="opacity: 0.8; margin-bottom: 1rem;">What I have experience in but haven't used in
+                        <h4 style="opacity: 0.8; margin-bottom: 1rem;">What I have experience in but haven't used in a
                             while:</h4>
                         <ul class="list-unstyled">
-                            <li><strong style="color: var(--highlight-color);">Languages:</strong> Sass, MySQL, PHP,
-                                Symfony Framework, Perl, XML, Java, Python</li>
-                            <li><strong style="color: var(--highlight-color);">DevTools:</strong> AWS, NetBeans, Sublime
-                                Text, Atom, HeidiSQL, Subversion, CPanel, Wordpress</li>
+                            <li class="list-item">
+                                <i class="fas fa-code-branch list-icon"></i>
+                                <span><b>Languages:</b> PHP, Java, C++, Python, VB.NET, ASP.NET, MVC, Entity Framework,
+                                    LINQ.</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -186,14 +372,14 @@
         </section>
 
         <!-- Contact Include -->
-        <section id="contact" class="section" style="background-color: var(--secondary-bg);">
+        <section id="contact" class="section">
             <div class="container">
-                <div class="text-center mb-12">
+                <div class="text-center mb-12 reveal">
                     <h2>Contact Me</h2>
                     <hr class="divider" />
                 </div>
-                <div style="max-width: 700px; margin: 0 auto;">
-                    <form action="//formspree.io/email@example.com" method="POST" name="sentMessage" id="contactForm"
+                <div style="max-width: 700px; margin: 0 auto;" class="reveal">
+                    <form action="//formspree.io/gavri@example.com" method="POST" name="sentMessage" id="contactForm"
                         novalidate>
                         <div class="form-group">
                             <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
@@ -213,42 +399,54 @@
                         <br>
                         <div id="success"></div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-primary">Send</button>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
                         </div>
                     </form>
                 </div>
             </div>
         </section>
+
     </main>
 
     <!-- Footer -->
-    <footer class="text-center">
-        <div class="container">
-            <div class="mb-8">
-                <h3>Around the Web</h3>
-                <div class="social-links">
-                    <!-- Hardcoded social links for preview -->
-                    <a href="#" class="btn-social"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="btn-social"><i class="fab fa-github"></i></a>
-                    <a href="#" class="btn-social"><i class="fab fa-twitter"></i></a>
-                </div>
+    <footer>
+        <div class="container text-center">
+            <div class="social-links">
+                <a href="https://github.com/grvriend" class="btn-social" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/grvriend" class="btn-social" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:gavri@example.com" class="btn-social">
+                    <i class="fas fa-envelope"></i>
+                </a>
             </div>
-        </div>
-        <div class="copyright">
-            <div class="container">
-                Copyright &copy; Graham Vriend 2025
+            <div class="copyright">
+                &copy; Graham Vriend 2023
             </div>
         </div>
     </footer>
 
-    <!-- Scroll to Top Button -->
-    <div style="position: fixed; bottom: 20px; right: 20px; z-index: 100;">
-        <a href="#page-top" class="btn btn-primary"
-            style="border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; padding: 0;">
-            <i class="fas fa-chevron-up"></i>
-        </a>
-    </div>
-
+    <!-- Scripts -->
+    <script>
+        // Scroll Reveal
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        reveal(); // Trigger once on load
+    </script>
 </body>
 
 </html>

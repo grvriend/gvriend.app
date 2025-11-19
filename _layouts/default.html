@@ -24,69 +24,56 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="//fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
-<body id="page-top">
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container nav-content">
-            <a class="nav-brand" href="#page-top">{{ site.name }}</a>
-
-            <div class="nav-links">
-                <a href="#about">About Me</a>
-                <a href="#interests">Interests</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container text-center">
-            <img class="profile-img" src="img/profile.png" alt="{{ site.name }}">
-            <div class="intro-text">
-                <h1>{{ site.name }}</h1>
-                <hr class="divider">
-                <span style="font-size: 1.5rem; font-weight: 300;">{{ site.skills }}</span>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        {% include about_me.html %}
-        {% include interests.html %}
-        {% include contact_form.html %}
-    </main>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="container">
-            <div class="mb-8">
-                <h3>Around the Web</h3>
-                <div class="social-links">
-                    {% for network in site.social %}
-                    <a href="{{ network.url }}" target="_blank" class="btn-social">
-                        <i class="fab fa-{{ network.title }}"></i>
-                    </a>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <div class="container">
-                Copyright &copy; {{ site.name }} 20{{ site.time | date: '%y' }}
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button -->
-    <div style="position: fixed; bottom: 20px; right: 20px; z-index: 100;">
-        <a href="#page-top" class="btn btn-primary"
-            style="border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; padding: 0;">
-            <i class="fas fa-chevron-up"></i>
+<img class="profile-img" src="img/profile.png" alt="{{ site.name }}">
+<div class="intro-text">
+    <h1>{{ site.name }}</h1>
+    <h3>Connect</h3>
+    <div class="social-links">
+        {% for network in site.social %}
+        <a href="{{ network.url }}" target="_blank" class="btn-social">
+            <i class="fab fa-{{ network.title }}"></i>
         </a>
+        {% endfor %}
     </div>
+</div>
+<div class="copyright">
+    Copyright &copy; {{ site.name }} 20{{ site.time | date: '%y' }}
+</div>
+</div>
+</footer>
+
+<!-- Scroll to Top Button -->
+<div style="position: fixed; bottom: 30px; right: 30px; z-index: 100;">
+    <a href="#page-top" class="btn btn-primary"
+        style="border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; padding: 0;">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+</div>
+
+<!-- Scroll Reveal Script -->
+<script>
+    function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            }
+        }
+    }
+    window.addEventListener("scroll", reveal);
+    // Trigger once on load
+    reveal();
+</script>
 
 </body>
 
