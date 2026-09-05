@@ -58,7 +58,7 @@ This site is deployed using GitHub Pages.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/grahamvriend/gvriend.app.git
+   git clone https://github.com/grvriend/gvriend.app.git
    ```
 
 2. Open `index.html` in your browser:
@@ -102,14 +102,14 @@ To customize this portfolio for your own use:
 
 ## 📄 License
 
-Copyright © 2025 Graham Vriend. All rights reserved.
+Copyright © 2026 Graham Vriend. All rights reserved.
 
 ## 📧 Contact
 
 - **Website**: [grahamv.app](https://grahamv.app)
-- **LinkedIn**: [linkedin.com/in/grahamvriend](https://www.linkedin.com/in/grahamvriend)
-- **GitHub**: [github.com/grahamvriend](https://github.com/grahamvriend)
-- **Email**: graham@grahamv.app
+- **LinkedIn**: [linkedin.com/in/grvriend](https://www.linkedin.com/in/grvriend)
+- **GitHub**: [github.com/grvriend](https://github.com/grvriend)
+- **Email**: grvriend@gmail.com
 
 ---
 

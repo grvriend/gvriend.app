@@ -33,7 +33,7 @@ Since you have a CNAME file already configured:
      ```
      Type: CNAME
      Name: www
-     Value: grahamvriend.github.io
+     Value: grvriend.github.io
      
      Type: A (or ALIAS)
      Name: @
