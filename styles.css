@@ -669,6 +669,12 @@ body {
     font-size: 1.1rem;
 }
 
+.role-meta {
+    color: var(--text-tertiary);
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+}
+
 .timeline-date {
     color: var(--text-tertiary);
     font-size: 0.95rem;
