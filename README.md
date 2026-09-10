@@ -1,6 +1,6 @@
 # Graham Vriend - Portfolio Website
 
-A modern, single-page portfolio website showcasing my experience as an Engineering Manager in EdTech and K-12 education.
+A modern, single-page portfolio website showcasing my experience as an engineering leader in EdTech and K-12 education.
 
 ## 🚀 Live Site
 

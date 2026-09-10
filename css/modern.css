@@ -413,6 +413,13 @@ footer {
     font-size: 0.95rem;
 }
 
+.experience-header .employment {
+    display: block;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
 .reveal {
     position: relative;
     transform: translateY(50px);
